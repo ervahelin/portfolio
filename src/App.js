@@ -1,15 +1,15 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import { BrowserRouter as Router } from "react-router-dom";
 import Nav from "./components/Nav";
+import Home from "./pages/Home";
 import Footer from "./components/Footer";
+import "./styles/index.css";
 
 function App() {
   return (
     <Router>
-      <div className="font-sans">
-        <Nav />
-      </div>
+      <Nav />
+      <Home />
       <Footer />
     </Router>
   );

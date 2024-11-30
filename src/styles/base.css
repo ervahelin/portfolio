@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark text-grey px-32;
+  }
+  a {
+    @apply transition-all hover:text-primary;
+  }
+  section {
+    @apply flex flex-row justify-between;
+  }
+  .skill {
+    @apply uppercase border rounded-full py-0.5 px-12 text-center;
+  }
+  #home {
+    height: 100vh;
+  }
+}

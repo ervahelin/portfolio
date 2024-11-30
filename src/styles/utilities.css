@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  
+    h2{
+      @apply font-extrabold text-5xl text-white;
+    }
+  }
+  

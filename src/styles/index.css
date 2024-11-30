@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./base.css";
+@import "./components.css";
+@import "./utilities.css";
+
+/* Define custom fonts with correct paths 
+@font-face {
+  font-family: "Favorit Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../fonts/FavoritPro/FavoritPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../fonts/futura/futur.ttf") format("truetype");
+}
+  */
