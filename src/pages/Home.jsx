@@ -12,9 +12,15 @@ function Home() {
           alt="Home image"
           className="absolute left-0 top-0"
         />
-        <div className="flex flex-col gap-1 relative">
-          <h1>Helin Güyen</h1>
-          <span>Frontend Developer - Student</span>
+        <div className="flex flex-row relative ">
+          <div className="w-3/6"></div>
+          <div className="flex flex-col gap-4 w-3/6 justify-center text-white">
+            <h1 className="text-8xl font-extrabold">Helin Güyen</h1>
+            <span className="text-2xl">Frontend Developer - Student</span>
+            <button className="skill text-primary border-primary w-3/6 mt-10 hover:bg-primary hover:text-white transition-all">
+              Download CV
+            </button>
+          </div>
         </div>
       </div>
 

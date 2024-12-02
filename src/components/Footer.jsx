@@ -8,7 +8,7 @@ function Footer() {
       <Link to="/" className="font-extrabold text-2xl text-white">
         HG
       </Link>
-      <Link to="/">DatENschutz</Link>
+      <Link to="/">Datenschutz</Link>
     </ul>
   );
 }
