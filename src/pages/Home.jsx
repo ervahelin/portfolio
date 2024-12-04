@@ -25,7 +25,7 @@ function Home() {
       </div>
 
       <section id="about" className="flex flex-row justify-between">
-        <p className="max-w-2xl">
+        <p className="w-3/6">
           Hello there! I'm [Your Name], and I'm thrilled to welcome you to my
           corner of the internet. Here's a little glimpse into who I am: <br />
           <br />
