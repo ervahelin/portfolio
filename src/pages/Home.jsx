@@ -12,12 +12,12 @@ function Home() {
           alt="Home image"
           className="absolute left-0 top-0"
         />
-        <div className="flex flex-row relative ">
+        <div className="flex flex-row relative z-50">
           <div className="w-3/6"></div>
-          <div className="flex flex-col gap-4 w-3/6 justify-center text-white">
+          <div className="flex flex-col gap-4 w-3/6 h-full justify-center text-white">
             <h1 className="text-8xl font-extrabold">Helin Güyen</h1>
             <span className="text-2xl">Frontend Developer - Student</span>
-            <button className="skill text-primary border-primary w-3/6 mt-10 hover:bg-primary hover:text-white transition-all">
+            <button className="skill text-white transition-colors border-primary  bg-primary w-3/6 mt-10 hover:bg-white hover:text-primary hover:border-white">
               Download CV
             </button>
           </div>
@@ -25,7 +25,7 @@ function Home() {
       </div>
 
       <section id="about" className="flex flex-row justify-between">
-        <p className="w-3/6">
+        <p className="max-w-2xl">
           Hello there! I'm [Your Name], and I'm thrilled to welcome you to my
           corner of the internet. Here's a little glimpse into who I am: <br />
           <br />
