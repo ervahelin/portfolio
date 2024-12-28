@@ -21,9 +21,7 @@ function Home() {
             <span className="text-xl lg:text-2xl">
               Frontend Developer - Student
             </span>
-            <button className="skill text-white transition-colors border-primary  bg-primary lg:w-3/6 mt-10 hover:bg-white hover:text-primary hover:border-white">
-              Download CV
-            </button>
+            <a className="skill text-white transition-colors border-primary  bg-primary lg:w-3/6 mt-10 hover:bg-white hover:text-primary hover:border-white" href="/cv-gueyen.pdf" download> Download CV</a>
           </div>
         </div>
       </div>
