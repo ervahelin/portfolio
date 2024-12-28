@@ -1,25 +1,26 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
 
 function Nav() {
   return (
     <div className="py-10 fixed z-50 justify-center w-full">
       <ul className="flex flex-row justify-center gap-12 uppercase items-center text-white text-lg">
         <li>
-          <a href="#about">About Me</a>
+          <HashLink to="/#about">About Me</HashLink>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <HashLink to="/#projects">Projects</HashLink>
         </li>
         <li>
-          <a className="text-4xl font-extrabold" href="/">
+          <HashLink className="text-4xl font-extrabold" to="/#home">
             HG
-          </a>
+          </HashLink>
         </li>
         <li>
-          <a href="#skills">Skills</a>
+          <HashLink to="/#skills">Skills</HashLink>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <HashLink to="/#experience">Experience</HashLink>
         </li>
       </ul>
     </div>
