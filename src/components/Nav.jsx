@@ -2,24 +2,24 @@ import React from "react";
 
 function Nav() {
   return (
-    <div className="py-10 relative">
-      <ul className="flex flex-row justify-center gap-12 uppercase items-center text-white text-sm">
+    <div className="py-10 fixed z-50 justify-center w-full">
+      <ul className="flex flex-row justify-center gap-12 uppercase items-center text-white text-lg">
         <li>
-          <a href="#aboutme">About Me</a>
+          <a href="#about">About Me</a>
         </li>
         <li>
-          <a href="#aboutme">Projects</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
-          <a className="text-4xl font-extrabold" href="#aboutme">
+          <a className="text-4xl font-extrabold" href="/">
             HG
           </a>
         </li>
         <li>
-          <a href="#aboutme">Skills</a>
+          <a href="#skills">Skills</a>
         </li>
         <li>
-          <a href="#aboutme">Experience</a>
+          <a href="#experience">Experience</a>
         </li>
       </ul>
     </div>

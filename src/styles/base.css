@@ -3,20 +3,23 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
   body {
-    @apply bg-dark text-grey px-32;
+    @apply bg-dark text-grey ;
   }
   a {
     @apply transition-all hover:text-primary;
   }
   section {
-    @apply flex flex-row justify-between;
+    @apply flex flex-col gap-10 lg:gap-0 lg:flex-row  justify-between px-14 lg:px-32;
   }
   .skill {
     @apply uppercase border rounded-full py-0.5 px-12 text-center;
   }
   #home {
-    height: 100vh;
+    @apply h-2/5 lg:h-4/5;
   }
   section {
     @apply py-10;
